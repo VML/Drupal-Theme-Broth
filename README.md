@@ -1,1 +1,1 @@
-# Drupal-Theme-Broth
+# Drupal Theme: Broth
