@@ -1,0 +1,83 @@
+# Library naming structure
+#
+# library--{library-name}
+#   Use library naming structure for external libraries that will then be used as dependencies of other libraries.
+#
+# component--{component-name}
+#   Use component naming structure for reusable items that aren't necessarily entity-specific. Include these as
+#   dependencies on the entity-specific libraries.
+#
+# {entity-type}--{view-mode}
+# {entity-type}--{view-mode}--{bundle}
+#   Use entity naming structure to allow the entities to automatically attach styles when rendered.
+#
+# NOTE: Entity CSS and JS files that are included in multiple different entity-specific libraries, should probably be
+#       broken into the component structure listed above and added as a dependency on the entity-specific library.
+#
+
+# ========= Globals ========= #
+
+# === Global: Base === #
+global:
+  version: 1.0
+  css:
+    theme:
+      css/layout.css : {}
+      css/typography.css : {}
+  dependencies:
+    - core/drupal
+
+
+# === Global: External Libraries === #
+
+# Slick Slider #
+library--slick:
+  version: 1.x
+  css:
+    component:
+      //cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css: { type: external }
+      //cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css: { type: external }
+  js:
+    //cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js: { type: external, minified: true }
+
+
+# === Global: Reusable Components === #
+
+# ========= Block ========= #
+
+# Global #
+block:
+  version: 1.x
+
+
+# ========= Forms ========= #
+
+# Global #
+form:
+  version: 1.x
+
+
+# ========= Nodes ========= #
+
+# === Node: Full === #
+
+node--full:
+  version: 1.x
+
+# === Node: Teaser === #
+
+# Global #
+node--teaser:
+  version: 1.x
+
+
+# ========= Paragraphs ========= #
+
+# === Paragraph: Full === #
+
+# Global #
+paragraph--full:
+  version: 1.x
+
+
+# ========= Views ========= #

@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the broth theme.
+ */
+
+include_once 'preprocess/block.preprocess.php';
+include_once 'preprocess/node.preprocess.php';
+include_once 'preprocess/paragraph.preprocess.php';
+include_once 'preprocess/view.preprocess.php';
+
+use Drupal\Component\Utility\Html;
+use Drupal\Component\Utility\NestedArray;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Template\Attribute;
