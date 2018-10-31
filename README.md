@@ -1,4 +1,4 @@
-# Drupal Theme: Broth
+# Drupal Theme: Skeleto
 
 This is a theme built to be used as a scaffolding theme for new projects.
 
