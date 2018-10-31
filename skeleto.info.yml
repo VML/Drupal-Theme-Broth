@@ -1,9 +1,9 @@
-name: Broth
+name: Skeleto
 type: theme
-description: 'A plain-but-savory scaffolding theme.'
+description: 'An skeleton scaffolding theme.'
 package: VMLY&R
 core: 8.x
-base theme: bowl
+base theme: bazo
 
 ckeditor_stylesheets:
   - css/typography.css
@@ -11,7 +11,7 @@ ckeditor_stylesheets:
 features:
   favicon: true
 libraries:
-  - broth/global
+  - skeleto/global
 regions:
   page_top: 'Page top'
   header: 'Header'

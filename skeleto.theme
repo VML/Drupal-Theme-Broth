@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Functions to support theming in the broth theme.
+ * Functions to support theming in the skeleto theme.
  */
 
 include_once 'preprocess/block.preprocess.php';

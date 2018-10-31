@@ -6,7 +6,7 @@
  *
  * Index:
  *
- * @see broth_preprocess_paragraph()
+ * @see skeleto_preprocess_paragraph()
  */
 
 use Drupal\Component\Utility\Html;
@@ -17,6 +17,6 @@ use Drupal\Core\Template\Attribute;
 /**
  * Implements hook_preprocess_paragraph().
  */
-function broth_preprocess_paragraph(array &$variables) {
+function skeleto_preprocess_paragraph(array &$variables) {
 
 }
