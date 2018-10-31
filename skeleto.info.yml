@@ -1,6 +1,6 @@
 name: Skeleto
 type: theme
-description: 'An skeleton scaffolding theme.'
+description: 'A bare-bones scaffolding theme.'
 package: VMLY&R
 core: 8.x
 base theme: bazo
