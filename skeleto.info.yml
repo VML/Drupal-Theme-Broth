@@ -5,9 +5,6 @@ package: VMLY&R
 core: 8.x
 base theme: bazo
 
-ckeditor_stylesheets:
-  - css/typography.css
-
 features:
   favicon: true
 libraries:
