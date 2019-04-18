@@ -22,8 +22,7 @@ global:
   version: 1.0
   css:
     theme:
-      css/layout.css : {}
-      css/typography.css : {}
+      css/styles.css : {}
   dependencies:
     - core/drupal
 
@@ -46,29 +45,29 @@ library--slick:
 # ========= Block ========= #
 
 # Global #
-block:
-  version: 1.x
+#block:
+#  version: 1.x
 
 
 # ========= Forms ========= #
 
 # Global #
-form:
-  version: 1.x
+#form:
+#  version: 1.x
 
 
 # ========= Nodes ========= #
 
 # === Node: Full === #
 
-node--full:
-  version: 1.x
+#node--full:
+#  version: 1.x
 
 # === Node: Teaser === #
 
 # Global #
-node--teaser:
-  version: 1.x
+#node--teaser:
+#  version: 1.x
 
 
 # ========= Paragraphs ========= #
@@ -76,8 +75,8 @@ node--teaser:
 # === Paragraph: Full === #
 
 # Global #
-paragraph--full:
-  version: 1.x
+#paragraph--full:
+#  version: 1.x
 
 
 # ========= Views ========= #
